@@ -1,0 +1,19 @@
+# Use global ignore:
+#            git config --global core.excludesfile '<path-to-file>'
+
+**/.settings
+**/target
+**/.classpath
+**/.project
+**/*.iml
+**/*.ipr
+**/.idea
+**/dependency-reduced-pom.xml
+*.iml
+.idea
+.settings
+.project
+target/
+**.DS_Store
+*.ignore
+
