@@ -1,5 +1,7 @@
 package com.ci.hello.resources;
 
+import com.ci.hello.model.Greeting;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -15,7 +17,7 @@ public class HelloWorldResource {
     @Path("/{name}")
     @Produces("application/json")
     public final Response getImageBytesByUuid(@PathParam("name") String name, @Context HttpHeaders httpHeaders) {
-        return Response.ok("{\"message\": \"Hello world\"}")
+        return Response.ok(new Greeting("Hello " + name))
                 .build();
     }
 }
