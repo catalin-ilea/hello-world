@@ -37,13 +37,13 @@ docker build -t hello-world .
 ```
 
 Pushing image to remote registry([DockerHub](https://hub.docker.com/)):
-⋅⋅* skip this step
+* skip this step
 ```
 docker build -t docker.io/cataliniquest/hello-world . && docker push docker.io/cataliniquest/hello-world
 ```
 
 Pulling image from remote registry:
-⋅⋅* skip this step
+* skip this step
 ```
 docker pull cataliniquest/hello-world
 ```
@@ -64,7 +64,7 @@ ps auxwww | grep java
 ```
 
 
-View informations about containers:
+View information about containers:
 ```
 docker ps
 docker port hello-world-1
