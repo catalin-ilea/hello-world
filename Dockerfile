@@ -11,4 +11,4 @@ RUN cp hello-world/target/hello-world-*.jar /app.jar
 EXPOSE 8080 8081
 ADD config.yml /config.yaml
 
-CMD java -Ddw.server.applicationConnectors[0].port=8080 -Ddw.server.adminConnectors[0].port=8081 -jar app.jar server config.yaml
+CMD java -jar app.jar server config.yaml
