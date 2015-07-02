@@ -25,6 +25,7 @@ Making a few requests:
 curl "localhost:8080/hello/java-community"
 curl "localhost:8081/health"
 curl "localhost:8081/threads"
+curl "localhost:8081/metrics"
 ```
 
 ##Dockerizing the dropwizard app
