@@ -3,7 +3,7 @@
 ##The dropwizard app
 
 [Dropwizard](http://www.dropwizard.io/)
-* Java framework for developing ops-friendly, high-performance, RESTful web services
+* Java framework for developing ops-friendly, high-performance, RESTful web services 
 
 
 
