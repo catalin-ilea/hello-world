@@ -1,4 +1,4 @@
-#Cheatsheet - testing github PubSubHubbub
+#Cheatsheet - testing 
 
 ##The dropwizard app
 
